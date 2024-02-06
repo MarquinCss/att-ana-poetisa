@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Adicione estas regras de estilo ao seu arquivo de estilo CSS */
+.navbar-light .navbar-nav .nav-link {
+  color: var(--titulorosa) !important; /* Verde - você pode ajustar o código de cor conforme desejado */
+}
+
+
+
+
+.color{
+  color: var(--titulorosa)!important;
+}
+
+.color2{
+  color:var(--tituloverde); 
+  font-weight: bold;
+}
+
+.icon-name{
+  display: flex  !important;
+gap:10px !important;
+}
+
+.icon-name i{
+  font-size: 25px;
+}
+
+.redess{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:30px !important;
+ 
+}
+
+
+:root {
+    --fundo1: #FED9EA; 
+    --fundo2: #FDF5E6; 
+    --header:#f8e5e5;
+    --text-color:#212121;
+    --titulorosa:#7E032F;
+    --rosaantigo:#FE5F99;
+    --tituloverde:#154B24;
+    --verdeantigo:#46CC6B;
+    --marrom:#753203;
+  }
+
+  #icone-ponta {
+    position: fixed;
+    bottom: 40px; 
+    right: 40px; 
+    z-index: 9999; 
+    width: 70px;
+    height: 70px;
+}
+
+p{
+  color:var(--text-color);
+  line-height:32px !important;
+}
+
+
+/*Botão*/
+
+.button {
+  appearance: button;
+  width: 220px;
+  height: 50px;
+  background-color: var(--tituloverde);
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  overflow: visible;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+ }
+ 
+.button:after {
+  background-clip: padding-box;
+  background-color: #219443;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+ }
+ 
+  .button:main, .button:focus {
+  user-select: auto;
+ }
+ 
+ .button:hover:not(:disabled) {
+  filter: brightness(1.1);
+ }
+ 
+  .button:disabled {
+  cursor: auto;
+ }
+ 
+  .button:active:after {
+  border-width: 0 0 0px;
+ }
+ 
+ .button:active {
+  padding-bottom: 10px;
+ }
+
+
+ .rosa{
+  color:#FE5F99;
+ }
+
+
+ .ft{
+  background-color: var(--titulorosa) !important;
+ }
+
+ .ft .copy{
+  color:var(--titulorosa);
+  font-weight: 600;
+ }
+
+ .ft .copy-dev{
+  color:var(--titulorosa);
+  font-weight: 600;
+  background-color: #FE5F99;
+  padding:5px;
+  border-radius:20px;
+  transition:.6s;
+ }
+
+ .ft .copy-dev:hover{
+  background-color: #7c0d36;
+  color:#fff;
+ }
+
+ .cs-f{
+  display: flex;
+  gap:50px;
+  flex-wrap: wrap;
+ }

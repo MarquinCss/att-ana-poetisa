@@ -1,0 +1,691 @@
+
+body{
+  background-color: var(--fundo2) !important;
+}
+.header{
+    background-color: var(--header) !important;
+    box-shadow: var(--header) 1px 5px 6px 1px;
+}
+
+
+.header ul{
+    display: flex;
+    gap:20px !important;
+    margin-right: 100px;
+}
+
+.header li{
+    font-size:22px;
+    color:#FE5F99 ;
+}
+
+.header a{
+    color:#FE5F99;
+}
+
+
+
+.main-logo{
+    margin-left:100px;
+}
+.landing-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 20px; /* Ajuste conforme necessário */
+  height: 100vh;
+  background-color: var(--fundo1);
+  width: 100%;
+
+}
+
+.main-img{
+    margin-left: 70px;
+    animation: moveUpDown 2s infinite alternate ease-in-out;
+    position:relative;
+
+  
+   
+}
+@keyframes moveUpDown {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: 30px; /* Ou qualquer valor desejado para o movimento para baixo */
+    }
+  }
+
+.landing-page h1{
+    max-width: 300px;
+    font-weight: 800;
+    color:var(--tituloverde);
+}
+
+.landing-page span{
+   color: var(--titulorosa);
+}
+
+.landing-page p{
+    max-width: 400px ;
+}
+
+
+
+   .conteudo{
+display: flex;
+flex-direction: column;
+gap:20px;
+   }
+
+ 
+
+   /*Projetos*/
+
+/*btn que some no pc*/
+.button-rep{
+  display: none;
+}
+
+
+.caart{
+  padding-top:150px;
+  height: 80vh;
+
+}
+
+.caart a:hover{
+  text-decoration: none;
+}
+
+.caart h2{
+  margin-bottom: 20px;
+  margin-left:160px;
+}
+
+   .pai-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+  }
+  
+  .pai-cart .cart{
+    max-width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .pai-cart .cart img{
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .pai-cart .cart .figure{
+  background-color:var(--header);
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--titulorosa);
+  font-size: 30px;
+  border-radius: 0px 0px 20px 20px;
+  font-weight: 600;
+  }
+  
+
+/*Sobre*/
+   .content2{
+    display: flex;
+    height: 100vh;
+    background-color: var(--fundo2);
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:300px;
+   }
+
+   .content2 .poetas{
+
+    max-width: 600px;
+    padding: 0;
+    border-radius: 15px;
+
+   }
+
+   
+   .texto-sobre{
+    margin-top:90px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+   }
+
+
+   .texto-sobre p{
+    font-size: 22px !important;
+   }
+   /*NO RESPONSIVO
+   .main-img{
+    display: none;
+   }
+   */
+ 
+   .content2 #sobre{
+    color:var(--tituloverde);
+   }
+
+
+   .content2 p{
+    max-width: 550px;
+    font-size:30px;
+    text-align: justify;
+   }
+   .content2 .text-img{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    margin-top: 100px;
+    flex-wrap: wrap !important;
+
+   }
+   
+
+   .poetas{
+    max-width: 600px;
+   }
+
+
+   .fotinhos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:106px;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .img-sobre-2{
+    opacity: 0;
+    display: none;
+  }
+
+   .fotinhos img{
+    width: 300px;
+    height: 270px;
+   }
+
+   #sobre{
+  font-weight:bold;
+   }
+
+
+   /*Contato*/
+   .contato{
+    background-color: var(--fundo2);
+height: 80vh;
+display: flex;
+justify-content: center;
+align-content: center;
+   }
+
+
+   .contato form{
+display: flex;
+flex-direction: column;
+gap:20px;
+   }
+
+   .contate-me{
+    background-color:var(--titulorosa);
+    width: 406px;
+    height: 400px;
+    text-align: center;
+    margin-left: 400px; /*No responsivo deve ficar no centro...*/
+    z-index: 999;
+    border-radius: 16px;
+   }
+
+   .contate-me h2{
+    margin-top:40px;
+    color:#FFF8F8;
+    font-weight: bold;
+   }
+
+
+   form .btn-form{
+    background-color: #FAD2E5;
+    color: var(--tituloverde);
+   }
+
+   form{
+    padding: 25px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+ .nomemail{
+display: flex;
+flex-direction:row;
+gap:10px;
+
+ }
+
+
+ .contato .tira{
+    position: absolute;
+    background-color:#FAD2E5;
+    width:100%;
+    height: 230px;
+    margin-top:100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+
+ .projetos{
+  display:none;
+  opacity: 0;
+  text-align: center;
+}
+
+ .contato .tira p{
+    max-width: 500px;
+    margin-right: 600px;
+    font-weight: bold;
+    font-size: 24px;
+  
+ }
+
+ form input{
+    width: 168px;
+    height:36px;
+    background-color: #FDF5E6;
+    border-radius: 10px;
+    border: none;
+    padding: 0.8rem;
+ }
+
+
+ form textarea{
+    width: 350px;
+    height: 120px !important;
+    background-color: #FDF5E6;
+    border-radius: 10px;
+    border: none;
+    padding: 0.4rem;
+    resize: none;
+ }
+
+ .invisivelparausuarios{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  color: transparent;
+  display: block;
+  position: absolute;
+ }
+
+/*FAQ*/
+
+.faq{
+  max-width:100%;
+}
+
+
+.perguntas{
+  display: flex;
+  flex-direction: row;
+  gap:60px;
+  margin-right: 160px;
+  margin-left:160px;
+}
+
+.pergunta h3{
+  color: var(--titulorosa);
+  font-weight: bold;
+}
+
+.pergunta{
+max-width: 500px;
+text-align: left;
+}
+
+.pergunta p{
+ max-width: 450px;
+}
+
+.faq h2{
+  margin-bottom: 20px;
+  margin-left:160px;
+}
+
+.faq{
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+gap:50px;
+}
+
+
+ 
+
+ /* Estilos para telas menores (ex: smartphones) */
+@media (max-width: 768px) {
+ 
+  .contato p{
+    display: none;
+    opacity: 0;
+  }
+  #icone-ponta {
+  
+    bottom: 25px; 
+    right: 20px; 
+    width: 70px;
+    height: 70px;
+}
+
+/*btn que aparece no celular*/
+.caart{
+  padding-top:120px;
+  height: 40vh;
+}
+
+.carddes{
+  display: none;
+}
+
+.button-rep{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  padding: 12px;
+}
+
+
+.button-rep button{
+  padding: 25px;
+  background-color: var(--titulorosa);
+  color: #fff;
+  font-size:22px;
+  font-weight: bold;
+
+}
+
+
+.button-rep img{
+  border-radius: 20px;
+  filter: grayscale(1);
+  transition: .3s;
+}
+
+.button-rep img:hover{
+  border-radius: 250px;
+  filter:contrast(1);
+}
+
+
+.faq h2{
+  text-align: center;
+ margin: 0 auto;
+}
+
+
+.perguntas{
+  max-width: 400px;
+  padding:20px;
+  margin: 0 auto;
+}
+
+
+
+  .title{
+    margin-left:160px;
+    padding:0;
+  }
+
+  .content{
+height: 100vh;
+  }
+  
+  .texto-sobre p{
+    max-width: 800px;
+  }
+  .landing-page {
+    margin-left:30px;
+     text-align: center;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     right: 45px;
+  }
+
+  .landing-page .main-img{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: transparent;
+    display: block;
+    position: absolute;
+  }
+
+  .conteudo{
+    padding:30px;
+    text-align: center;
+  }
+  .landing-page .conteudo {
+    padding-bottom:100px;
+    text-align: center;
+ }
+
+  .landing-page h1 {
+     max-width: 100%;
+  }
+
+  .main-img {
+     display: none;
+  }
+
+  .content,
+  .content2,
+  .contato {
+     padding: 20px;
+  }
+
+  .texto-sobre{
+    padding:0 60px ;
+    margin-bottom:600px;
+  }
+
+
+
+  .foto-topo{
+    height:430px;
+  }
+  .contato .tira {
+     margin-top: 20px;
+  }
+
+  .contato .tira p {
+     margin-right: 0;
+  }
+
+  .contate-me {
+     margin-left: 0;
+     width: 100%;
+  }
+
+  .caption {
+    font-size:17px;
+  }
+  .item img {
+  display: none;
+}
+
+  .text-img{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .img-sobre-2{
+    opacity: 1;
+    display: block;
+    width: 400px;
+    height: 400px;
+    padding:20px;
+    margin-top:300px;
+  }
+
+
+}
+/* Estilos para telas médias (notebooks, tablets) */
+@media (max-width: 1240px) {
+  .header ul {
+      margin-right: 50px; /* Reduzindo a margem para telas médias */
+  }
+
+  .main-logo {
+      margin-left: 50px; /* Reduzindo a margem para telas médias */
+  }
+  #icone-ponta {
+  
+    bottom: 25px; 
+    right: 20px; 
+    width: 70px;
+    height: 70px;
+}
+
+.perguntas{
+  padding:20px;
+  flex-direction: column;
+  gap:30px;
+}
+  
+  .projetos{
+    display: block;
+    opacity: 1;
+  }
+  
+  
+
+  .landing-page {
+      gap: 50px; /* Ajustando o espaçamento para telas médias */
+      padding: 20px; /* Ajustando o espaçamento para telas médias */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      
+      
+  }
+
+  .texto-sobre{
+    padding:10px;
+  }
+
+  .main-img {
+      display:none;
+      opacity: 0;
+  }
+
+  .content {
+      margin-top: 50px; /* Ajustando a margem para telas médias */
+  }
+
+  .wrapper {
+      padding: 0 1rem; /* Ajustando o padding para telas médias */
+  }
+  .poetas{
+    display: none;
+  }
+
+  .item {
+      width: 45%; /* Reduzindo a largura para telas médias */
+  }
+
+  
+  /* Adicione outras modificações necessárias para telas médias */
+}
+/* Estilos para telas médias (notebooks, tablets) */
+@media (max-width: 1024px) {
+  .header ul {
+      margin-right: 50px; /* Reduzindo a margem para telas médias */
+  }
+  .projetos{
+    display: block;
+    opacity: 1;
+  }
+  #icone-ponta {
+  
+    bottom: 19px; 
+    right: 15px; 
+    width: 70px;
+    height: 70px;
+}
+
+  
+
+  .main-logo {
+      margin-left: 50px; /* Reduzindo a margem para telas médias */
+  }
+
+  .landing-page {
+      gap: 50px; /* Ajustando o espaçamento para telas médias */
+      padding: 20px; /* Ajustando o espaçamento para telas médias */
+  }
+
+  .main-img {
+      margin-left: 20px; /* Ajustando a margem para telas médias */
+  }
+  
+ 
+  .content {
+      margin-top: 50px; /* Ajustando a margem para telas médias */
+  }
+
+  .wrapper {
+      padding: 0 1rem; /* Ajustando o padding para telas médias */
+  }
+
+  .item {
+      width: 45%; /* Reduzindo a largura para telas médias */
+  }
+
+  .poetas{
+    display: none;
+  }
+
+  .contato p{
+    display: block;
+    margin-left:40PX;
+  }
+
+  .texto-sobre{
+    margin-top:500px;
+  }
+
+  .texto-sobre p{
+    max-width: 800px;
+  }
+
+  /* Adicione outras modificações necessárias para telas médias */
+}
